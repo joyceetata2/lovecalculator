@@ -1,0 +1,52 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+input[type="text"],
+button {
+  margin: 30px;
+  padding: 10px;
+  width: 500px;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button {
+  width: 250px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.love {
+  color: #45a049;
+}
+
+.calculate {
+  color: brown;
+}
+
+.late {
+  color: #45a049;
+}
